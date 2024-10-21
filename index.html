@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="song-img-div">
+          <img class="song-img" src="assets/2.jpg">
+          <div class="disk"></div>
+        </div>
+        <div class="song-name-div">It's my life</div>
+        <div class="artist-name-div">Bon Jovi</div>
+
+        <div class="time-bar">
+            <div class="filled-time-bar"></div>
+            <div class="progress-spot"></div>
+        </div>
+
+        <div class="song-duration">
+            <div class="current-time">0:00</div>
+            <div class="song-total-time">0:00</div>
+        </div>
+        <div class="action-buttons-div">
+            <div class="backward-btn-div"> <i class="backward-btn fa-solid fa-backward"></i> </div>
+            <div id="playIcon" class="play-btn-div" onclick="ppBtn()"> <i class="play-btn fa-solid fa-pause"></i> </div>
+            <div class="foward-btn-div"> <i class="foward-btn fa-solid fa-forward"></i> </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
